@@ -38,6 +38,8 @@ pip install -r requirements.txt
 
 3. **Configure your target group:**
    - Edit `main.py` and update `GROUP_URL` with your target Facebook group URL
+   - Replace `YOUR_GROUP_ID_HERE` with the actual group ID from Facebook
+   - Example: `"https://www.facebook.com/groups/123456789012345"`
    - Set `DESIRED_POSTS` to the number of posts you want to extract
 
 ## 🚀 Usage
@@ -73,8 +75,8 @@ python main.py
 
 | Variable | Description | Default |
 |----------|-------------|---------|
-| `DESIRED_POSTS` | Number of posts to extract | 20 |
-| `GROUP_URL` | Target Facebook group URL | - |
+| `DESIRED_POSTS` | Number of posts to extract | 50 |
+| `GROUP_URL` | Target Facebook group URL | YOUR_GROUP_ID_HERE |
 | `MAX_SCROLLS` | Maximum scroll attempts | 30 |
 | `OUTPUT_FILE` | Output file name | fb_posts_output.txt |
 

@@ -1,9 +1,9 @@
 from playwright.sync_api import sync_playwright
 import time
 
-DESIRED_POSTS = 20
+DESIRED_POSTS = 50
 # ⚠️ THAY ĐỔI URL NÀY THÀNH URL NHÓM FACEBOOK CỦA BẠN
-GROUP_URL = "https://www.facebook.com/groups/1777766135578951"
+GROUP_URL = "https://www.facebook.com/groups/YOUR_GROUP_ID_HERE"
 OUTPUT_FILE = "fb_posts_output.txt"
 STORAGE_STATE = "facebook_state.json"
 MAX_SCROLLS   = 30    # safety limit
